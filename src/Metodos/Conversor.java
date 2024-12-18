@@ -30,7 +30,6 @@ public class Conversor {
         JsonPrimitive primeiroRate = (JsonPrimitive) rates.get(primeiraMoeda);
         JsonPrimitive segundoRate = (JsonPrimitive) rates.get(segundaMoeda);
 
-        System.out.println();
         System.out.println("Digite o valor que deseja converter");
         moeda.valor = scan.nextDouble() * Double.parseDouble(primeiroRate.toString());
         moeda.calcularResultado(moeda.valor, Double.parseDouble(primeiroRate.toString()), Double.parseDouble(segundoRate.toString()));

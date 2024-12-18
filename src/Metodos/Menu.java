@@ -11,7 +11,6 @@ public class Menu {
         boolean sair = false;
         while (!sair) {
             System.out.println("Escolha alguma conversão:");
-            System.out.println();
             System.out.println("1) Dólar -> Peso argentino");
             System.out.println("2) Peso argentino -> Dólar");
             System.out.println("3) Dólar -> Real brasileiro");
